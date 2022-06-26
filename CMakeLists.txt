@@ -2642,7 +2642,7 @@ listtostr(EXTRA_CFLAGS _EXTRA_CFLAGS)
 set(EXTRA_CFLAGS ${_EXTRA_CFLAGS})
 
 # Compat helpers for the configuration files
-find_package(Git)
+#find_package(Git)
 if(Git_FOUND)
   execute_process(COMMAND
     "${GIT_EXECUTABLE}" remote get-url origin
